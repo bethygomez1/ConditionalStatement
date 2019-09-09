@@ -13,7 +13,9 @@ namespace ConditionalStatement
         static void Main(string[] args)
         {
             // Ask the user for input
-            Console.WriteLine("Please enter the grade you expect to receive in the class");
+            Console.WriteLine("Please enter the grade you expect to receive in ISM 4300.");
+            Console.WriteLine();
+            Console.WriteLine("Be sure to enter a value that is between 0 and 100.");
             
             try
             {
