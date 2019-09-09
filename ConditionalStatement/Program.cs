@@ -23,63 +23,63 @@ namespace ConditionalStatement
                 int grade = int.Parse(Console.ReadLine());
 
                 // These if, else/if statements will use the user input to determine a letter grade
-                if ((grade > 97) && (grade < 101)) // 98-100 is an A+
+                if ((grade >= 98) && (grade <= 100)) // 98-100 is an A+
                 {
                     Console.WriteLine("You should expect to receive an A+ in the class");
                     Console.WriteLine();
                     Console.WriteLine("Please press any key to continue...");
                     Console.ReadKey(true);
                 }
-                else if ((grade > 91) && (grade < 98)) // 92-27 is an A
+                else if ((grade >= 92) && (grade <= 97)) // 92-27 is an A
                 {
                     Console.WriteLine("You should expect to receive an A in the class");
                     Console.WriteLine();
                     Console.WriteLine("Please press any key to continue...");
                     Console.ReadKey(true);
                 }
-                else if ((grade > 89) && (grade < 91)) // 90-91 is an A-
+                else if ((grade >= 90) && (grade <= 91)) // 90-91 is an A-
                 {
                     Console.WriteLine("You should expect to receive an A- in the class");
                     Console.WriteLine();
                     Console.WriteLine("Please press any key to continue...");
                     Console.ReadKey(true);
                 }
-                else if ((grade > 87) && (grade < 90)) // 88-89 is a B+
+                else if ((grade >= 88) && (grade <= 89)) // 88-89 is a B+
                 {
                     Console.WriteLine("You should expect to receive an B+ in the class");
                     Console.WriteLine();
                     Console.WriteLine("Please press any key to continue...");
                     Console.ReadKey(true);
                 }
-                else if ((grade > 81) && (grade < 88)) // 82-87 is a B
+                else if ((grade >= 82) && (grade <= 87)) // 82-87 is a B
                 {
                     Console.WriteLine("You should expect to receive an B in the class");
                     Console.WriteLine();
                     Console.WriteLine("Please press any key to continue...");
                     Console.ReadKey(true);
                 }
-                else if ((grade > 79) && (grade < 82)) // 80-81 is a B-
+                else if ((grade >= 80) && (grade <= 81)) // 80-81 is a B-
                 {
                     Console.WriteLine("You should expect to receive an B- in the class");
                     Console.WriteLine();
                     Console.WriteLine("Please press any key to continue...");
                     Console.ReadKey(true);
                 }
-                else if ((grade > 77) && (grade < 80)) // 78-79 is a C+
+                else if ((grade >= 78) && (grade <= 79)) // 78-79 is a C+
                 {
                     Console.WriteLine("You should expect to receive an C+ in the class");
                     Console.WriteLine();
                     Console.WriteLine("Please press any key to continue...");
                     Console.ReadKey(true);
                 }
-                else if ((grade > 71) && (grade < 78)) // 72-77 is a C
+                else if ((grade >= 72) && (grade <= 77)) // 72-77 is a C
                 {
                     Console.WriteLine("You should expect to receive an C in the class");
                     Console.WriteLine();
                     Console.WriteLine("Please press any key to continue...");
                     Console.ReadKey(true);
                 }
-                else if ((grade > 69) && (grade < 72)) // 70-71 is a C-
+                else if ((grade >= 70) && (grade <= 71)) // 70-71 is a C-
                 {
                     Console.WriteLine("You should expect to receive an C- in the class");
                     Console.WriteLine("Please be aware that this is not a passing grade and you may need to retake the class");
@@ -87,7 +87,7 @@ namespace ConditionalStatement
                     Console.WriteLine("Please press any key to continue...");
                     Console.ReadKey(true);
                 }
-                else if ((grade > 67) && (grade < 70)) // 68-69 is a D+
+                else if ((grade >= 68) && (grade <= 69)) // 68-69 is a D+
                 {
                     Console.WriteLine("You should expect to receive an D+ in the class");
                     Console.WriteLine("Please be aware that this is not a passing grade and you may need to retake the class");
@@ -95,7 +95,7 @@ namespace ConditionalStatement
                     Console.WriteLine("Please press any key to continue...");
                     Console.ReadKey(true);
                 }
-                else if ((grade > 61) && (grade < 68)) // 62-67 is a D
+                else if ((grade >= 62) && (grade <= 67)) // 62-67 is a D
                 {
                     Console.WriteLine("You should expect to receive an D in the class");
                     Console.WriteLine("Please be aware that this is not a passing grade and you may need to retake the class");
@@ -103,7 +103,7 @@ namespace ConditionalStatement
                     Console.WriteLine("Please press any key to continue...");
                     Console.ReadKey(true);
                 }
-                else if ((grade > 59) && (grade < 62)) // 60-61 is a D-
+                else if ((grade >= 60) && (grade <= 61)) // 60-61 is a D-
                 {
                     Console.WriteLine("You should expect to receive an D- in the class");
                     Console.WriteLine("Please be aware that this is not a passing grade and you may need to retake the class");
@@ -111,7 +111,7 @@ namespace ConditionalStatement
                     Console.WriteLine("Please press any key to continue...");
                     Console.ReadKey(true);
                 }
-                else if ((grade >=0) && (grade < 60)) // 0-59 is an F
+                else if ((grade >=0) && (grade <= 59)) // 0-59 is an F
                 {
                     Console.WriteLine("You should expect to receive an F in the class.");
                     Console.WriteLine("Consider withdrawing from the course or take it again at a later date.");
